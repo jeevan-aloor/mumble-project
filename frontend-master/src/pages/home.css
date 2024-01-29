@@ -1,0 +1,89 @@
+.parent{
+  border-style:solid;
+  border-color:var(--background);
+  padding: 5%;
+  /* border:1px solid blue */
+  
+}
+.cardText{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.cardText2{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.cardText2 h4{
+  font-size: 1rem;
+
+}
+.cardText h4{
+  font-size: 1rem;
+}
+@media screen and (max-width: 1700px) {
+  .cardText2 h4{
+    font-size: 0.8rem;
+
+  }
+  .cardText h4{
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .cardText2 h4{
+    font-size: 0.7rem;
+
+  }
+  .cardText h4{
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .cardText2 h4{
+    font-size: 0.5rem;
+
+  }
+  .cardText h4{
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .cardText2  {
+    display: grid;
+
+  }
+  .cardText  {
+    display: grid;
+  }
+}
+
+.slick-custom{
+  background-color: var(--background);
+  border-radius: 18px;
+  height: 290px;
+
+}
+ /* the slides */
+ .slick-slide {
+  margin: 0 27px;
+}
+
+/* the parent */
+.slick-list {
+  margin: 0 -27px;
+}
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg{
+  display: none;
+}
+.image-gallery-content .image-gallery-slide .image-gallery-image{
+  height: 20rem;
+}
+.image-gallery-thumbnail.active{
+  border: none;
+}
+.image-gallery-fullscreen-button .image-gallery-svg, .image-gallery-play-button .image-gallery-svg{
+  display: none;
+}
